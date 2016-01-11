@@ -4,6 +4,7 @@
   "description": "Projeto que tem como intuito servir de base para Apps feitos para NodeJs se utilizando do banco de dados Mysql",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "jasmine-node tests/"
   },
   "repository": {
