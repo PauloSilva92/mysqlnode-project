@@ -1,0 +1,26 @@
+{
+  "name": "mysqlnode",
+  "version": "0.0.1",
+  "description": "Projeto que tem como intuito servir de base para Apps feitos para NodeJs se utilizando do banco de dados Mysql",
+  "main": "app.js",
+  "scripts": {
+    "test": "jasmine-node tests/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PauloSilva92/mysqlnode-project.git"
+  },
+  "keywords": [
+    "Mysql",
+    "Nodejs"
+  ],
+  "author": "Paulo Roberto da Silva",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PauloSilva92/mysqlnode-project/issues"
+  },
+  "dependencies": {
+    "mysql": "~2.10.0",
+    "express": "~4.13.3"
+  }
+}
