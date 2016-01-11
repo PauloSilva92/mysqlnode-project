@@ -7,6 +7,4 @@ var connection = mysql.createConnection({
     database: 'mysqlnode' //mude esse campo para o nome do seu banco de dados
 });
 
-connection.connect();
-
 module.exports = connection;
