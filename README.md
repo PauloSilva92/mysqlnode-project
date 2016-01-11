@@ -10,7 +10,7 @@ Este projeto tem como objetivo ajudar quem quer criar um projeto em nodejs e uti
 
 2. Configuração:
 
-	O primeiro passo é rodar no terminal "'npm install'" para que todos os pacotes necessarios sejam instalados.
+	O primeiro passo é rodar no terminal "`npm install`" para que todos os pacotes necessarios sejam instalados.
 
 	Vá até a pasta config e abra o arquivo "'db.config.js'". Nele você vai encontrar o campo onde é criado o objeto de conexão. Modifique os dados dele para as configurações do seu banco de dados.
 
