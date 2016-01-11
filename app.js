@@ -3,10 +3,11 @@ var db = require('./config/db.config.js');
 
 //chamada dos arquivos de rotas
 var Index = require('./routes/index.router.js');
-
+var Usuario = require('./routes/user.router.js');
 
 //Rotas
 app.use('/',Index);
+app.use('/user', Usuario);
 
 
 
@@ -21,8 +22,5 @@ db.connect(function(err){
     }
 });
 
-db.end(function(){
-    console.log('Conexão com o mysql fechada');
-});
 //
 
