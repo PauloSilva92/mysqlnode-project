@@ -13,14 +13,16 @@ app.use('/user', Usuario);
 
 
 
-//aqui eu abro e fecho a conexão com o mysql só para testar e ver se realmente ele conectou 
-db.connect(function(err){
+
+
+ 
+/*db.connect(function(err){
     if(err){
         console.error('Erro na conexão com o mysql. ['+ err +']');
     }else{
         console.log('Conexão com o mysql aberta');
     }
-});
+});*/
 
 //
 

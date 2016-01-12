@@ -13,4 +13,12 @@ exports.save = function(nome, email, senha, callback){
     Usuario.save(usuario, function(resp){
         callback(resp);
     });
-}
+};
+
+
+exports.list = function(callback){
+    
+    Usuario.list(function(resp){
+        callback(resp);
+    });
+};

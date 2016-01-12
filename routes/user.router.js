@@ -12,4 +12,10 @@ router.post('/save', function(req, res){
    });
 });
 
+router.get('/listall', function(req, res){
+   UsuarioController.list(function(resp){
+       res.json(resp);
+   }) 
+});
+
 module.exports = router; 
